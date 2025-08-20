@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables from tokens are injected via Storybook preview or can be imported from packages/ui/src/styles/theme.css */

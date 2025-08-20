@@ -1,0 +1,62 @@
+{
+  "support": {
+    "phone": "1800 005 166",
+    "hours": "8am – 7pm, Monday - Friday (AEST/AEDT)",
+    "links": [
+      {"label": "Enquire online", "href": "/members/contact-us#enquire"},
+      {"label": "Contact Us", "href": "/members/contact-us"}
+    ]
+  },
+  "app": {
+    "copy": "Download the CareSuper app and manage your account on the go!",
+    "links": [
+      {"type": "appstore", "href": "https://apps.apple.com/au/app/caresuper-app/idXXXXXXXX"},
+      {"type": "playstore", "href": "https://play.google.com/store/apps/details?id=au.com.caresuper"},
+      {"type": "internal", "label": "Learn about the app", "href": "/members/app"}
+    ]
+  },
+  "about": [
+    {"label": "About us", "href": "/members/about-us"},
+    {"label": "Careers", "href": "/members/about-us/careers"},
+    {"label": "Complaints handling", "href": "/members/complaints"},
+    {"label": "Keeping your information safe", "href": "/members/keeping-your-information-safe"},
+    {"label": "Terms of use", "href": "/members/terms-of-use"},
+    {"label": "Whistleblower information", "href": "/members/whistleblower-information"},
+    {"label": "Privacy policy", "href": "/members/privacy-policy"},
+    {"label": "FAQs", "href": "/members/faqs"}
+  ],
+  "fundDetails": {
+    "usi": "MTA0100AU",
+    "name": "CareSuper",
+    "abn": "74 559 365 913",
+    "badges": [
+      {"type": "industry-superfund", "src": "/assets/brand/industry-superfund.svg", "alt": "Industry SuperFund membership"}
+    ]
+  },
+  "awards": [
+    {"name": "CSBA Top 3 Service (2024)", "href": "https://www.csba.com.au"},
+    {"name": "SuperRatings", "href": "https://www.superratings.com.au"},
+    {"name": "Chant West", "href": "https://www.chantwest.com.au"},
+    {"name": "Rainmaker ESG Leader", "href": "https://www.rainmaker.com.au"},
+    {"name": "The Heron Partnership", "href": "https://www.heronpartners.com.au"}
+  ],
+  "social": [
+    {"icon": "linkedin", "href": "https://www.linkedin.com/company/caresuper"},
+    {"icon": "facebook", "href": "https://www.facebook.com/CareSuper"},
+    {"icon": "x", "href": "https://twitter.com/CareSuper"},
+    {"icon": "youtube", "href": "https://www.youtube.com/@CareSuper"}
+  ],
+  "acknowledgement": {
+    "text": "We acknowledge and pay our respects to Aboriginal and Torres Strait Islander Peoples as the First Peoples of Australia, whose ancestral lands and waters we work and live on throughout Australia. We honour the wisdom of, and pay respects to, Elders past and present."
+  },
+  "disclosures": {
+    "generalAdvice": "This is general information only and doesn't take into account your objectives, financial situation or needs.",
+    "pds": {
+      "copy": "Before making a decision about CareSuper, read our Product disclosure statement, Target market determination and Financial services guide.",
+      "hrefs": {"pds": "/pds", "tmd": "/pds", "fsg": "/fsg"}
+    },
+    "pastPerformance": "Past performance isn't a reliable indicator of future performance.",
+    "trustee": "CareSuper Pty Ltd (Trustee) ABN 14 008 650 628, AFSL 238718. CareSuper (Fund) ABN 74 559 365 913. Advice is provided by CareSuper Advice ABN 78 102 167 877, AFSL 284443.",
+    "copyright": "© 2025 CareSuper"
+  }
+}

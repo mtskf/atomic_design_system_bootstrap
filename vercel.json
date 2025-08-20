@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm install && pnpm storybook:build",
+  "outputDirectory": "packages/ui/storybook-static",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD || echo 'changed'"
+}

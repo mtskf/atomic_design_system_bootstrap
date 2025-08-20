@@ -1,0 +1,21 @@
+/* Design tokens CSS variables */
+:root {
+  --color-bg-surface: #ffffff;
+  --color-bg-muted: #f9fafb;
+  --color-fg: #000f69;
+  --color-fg-muted: #6b7280;
+
+  /* CareSuper Brand Typography - Adobe Fonts */
+  --font-brand-bold: "filson-pro", "Arial Black", sans-serif;
+  --font-brand-medium: "filson-pro", "Arial", sans-serif;
+  --font-brand-book: "filson-pro", "Arial", sans-serif;
+  --font-brand-fallback: "Arial", "Helvetica", sans-serif;
+  --font-sans: var(--font-brand-book);
+}
+
+[data-theme="dark"] {
+  --color-bg-surface: #0b1020;
+  --color-bg-muted: #121a2d;
+  --color-fg: #e5e7eb;
+  --color-fg-muted: #9ca3af;
+}

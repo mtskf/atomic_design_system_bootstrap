@@ -1,0 +1,31 @@
+# Cursor Rules for CareSuper Design System
+
+Always follow these rules when generating or editing code:
+
+- Framework: Next.js (App Router) + TypeScript
+- Styling: Tailwind CSS. No CSS-in-JS. Use semantic HTML and accessible roles/aria.
+- Structure: src/components/{atoms,molecules,organisms,templates}/
+- Stories: Create Storybook stories for every component under `*.stories.tsx` with Controls + a11y addon.
+- Accessibility: All interactive elements must be keyboard accessible; include aria-* attributes and visible focus.
+- Testing: Add basic React Testing Library tests for complex components.
+- Docs: Before coding, read ./docs/atomic-design-system-spec.md and ./docs/component-checklist.md . If unclear, ask for clarifying questions.
+
+When creating components:
+
+- Export default React components.
+- Provide example usage snippets in JSDoc.
+- Keep props minimal; prefer composition and slots-like children.
+
+File naming:
+
+- PascalCase for components (e.g., Card.tsx), kebab-case for routes.
+
+Language and Documentation:
+
+- All new files, components, and documentation must be created in English.
+- Comments, JSDoc, README files, and technical documentation should be in English.
+- Only user-facing text (UI labels, error messages) may be localized via i18n.
+
+Output expectations:
+
+- Include stories, types, and basic tests in the same PR chunk.
